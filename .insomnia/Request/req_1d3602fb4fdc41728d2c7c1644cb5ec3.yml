@@ -1,0 +1,30 @@
+_id: req_1d3602fb4fdc41728d2c7c1644cb5ec3
+type: Request
+parentId: wrk_524b164721dc451884214e755789237a
+modified: 1667521563998
+created: 1667521559572
+url: http://localhost:3001/users/1
+name: Requisição com token expirado ou inválido
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_1cf21495ae15411dbb9e53753b5f5ec4
+    name: Authorization
+    value: ddas
+    description: ""
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: true
+  username: ""
+  password: ""
+metaSortKey: -1667520045825.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

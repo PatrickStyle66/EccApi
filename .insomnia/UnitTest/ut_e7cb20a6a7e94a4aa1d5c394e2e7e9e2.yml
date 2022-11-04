@@ -1,0 +1,10 @@
+_id: ut_e7cb20a6a7e94a4aa1d5c394e2e7e9e2
+type: UnitTest
+parentId: uts_fe907c89cc4d4c7cbc2be83b31818c18
+modified: 1667521773534
+created: 1667521590768
+requestId: req_37a9e50aeb4d4aa288f446f617855946
+name: Cadastro bem sucedido
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);

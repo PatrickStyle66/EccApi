@@ -1,0 +1,31 @@
+_id: req_562529efc96b499caf2c36a04ace2570
+type: Request
+parentId: wrk_524b164721dc451884214e755789237a
+modified: 1667521491438
+created: 1667520218937
+url: http://localhost:3001/users/1
+name: Requisição com autorização
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_1cf21495ae15411dbb9e53753b5f5ec4
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwibm9tZV91c3VhcmlvIjoiVGVzdGVDYXNhbCIsImlhdCI6MTY2NzUyMDg3MCwiZXhwIjoxNjY4MTI1NjcwfQ.bQjU6FQGrujE5gnP0rp7hAMZqPjqChagsJGtOctDuns
+    description: ""
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: true
+  username: ""
+  password: ""
+metaSortKey: -1667520218937
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,10 @@
+_id: ut_d19792da0fa24cdf90578f31ef0a21b4
+type: UnitTest
+parentId: uts_fe907c89cc4d4c7cbc2be83b31818c18
+modified: 1667521749771
+created: 1667521727887
+requestId: req_d32cae8f0a4146478f582bca7c4fac06
+name: Cadastro com usuário repetido
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(400);

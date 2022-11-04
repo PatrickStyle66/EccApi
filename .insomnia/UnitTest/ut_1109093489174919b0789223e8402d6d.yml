@@ -1,0 +1,10 @@
+_id: ut_1109093489174919b0789223e8402d6d
+type: UnitTest
+parentId: uts_fe907c89cc4d4c7cbc2be83b31818c18
+modified: 1667521839600
+created: 1667521827904
+requestId: req_daa1523ad7834c08a73352853032a93b
+name: Cadastro com email repetido
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(400);

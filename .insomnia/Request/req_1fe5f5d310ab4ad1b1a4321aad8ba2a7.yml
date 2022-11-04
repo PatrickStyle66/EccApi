@@ -1,0 +1,29 @@
+_id: req_1fe5f5d310ab4ad1b1a4321aad8ba2a7
+type: Request
+parentId: wrk_524b164721dc451884214e755789237a
+modified: 1667520193125
+created: 1667520189218
+url: http://localhost:3001/tokens/
+name: Login sem usuário e senha
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nome_usuario":"",
+    	"password":""
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1666895059496
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

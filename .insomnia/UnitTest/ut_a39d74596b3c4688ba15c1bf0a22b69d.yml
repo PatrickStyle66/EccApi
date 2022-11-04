@@ -1,0 +1,10 @@
+_id: ut_a39d74596b3c4688ba15c1bf0a22b69d
+type: UnitTest
+parentId: uts_fe907c89cc4d4c7cbc2be83b31818c18
+modified: 1667522029288
+created: 1667522025815
+requestId: req_196ea9762c014f508eb0c8c3f22460b8
+name: Login bem sucedido
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);

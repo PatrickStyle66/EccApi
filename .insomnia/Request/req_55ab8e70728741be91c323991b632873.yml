@@ -1,0 +1,30 @@
+_id: req_55ab8e70728741be91c323991b632873
+type: Request
+parentId: wrk_524b164721dc451884214e755789237a
+modified: 1667521512070
+created: 1667521500192
+url: http://localhost:3001/users/1
+name: Requisição sem autorização
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_1cf21495ae15411dbb9e53753b5f5ec4
+    name: Authorization
+    value: ""
+    description: ""
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: true
+  username: ""
+  password: ""
+metaSortKey: -1667520103529.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

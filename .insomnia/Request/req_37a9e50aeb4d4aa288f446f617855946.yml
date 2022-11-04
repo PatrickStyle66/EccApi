@@ -1,0 +1,47 @@
+_id: req_37a9e50aeb4d4aa288f446f617855946
+type: Request
+parentId: wrk_524b164721dc451884214e755789237a
+modified: 1667593570009
+created: 1666805783978
+url: localhost:3001/users
+name: Inserção de usuário
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"paroquia": "Santa catarina labouré",
+      "arqui_diocese": "maceió",
+      "cidade": "maceió",
+      "estado": "alagoas",
+      "nome_dele": "Jonathas Patrick",
+      "nome_usual_dele": "Patrick",
+      "data_nascimento_dele": "2020-1-20",
+      "nome_dela": "Larah Katarina",
+      "nome_usual_dela": "Larah",
+      "data_nascimento_dela": "2020-1-20",
+      "telefone_dele": "(82)99999-9999",
+    	"telefone_dela": "(82)99999-9999",
+      "casamento_religioso": "true",
+      "encontro_realizado": "15º",
+      "palestra_realizada": "false",
+      "qual_palestra": "",
+      "qual_movimento": "",
+      "nome_usuario": "TesteCasal",
+      "email": "teste@teste.com",
+    	"password": "123456"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1666805783978
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

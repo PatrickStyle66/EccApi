@@ -1,0 +1,10 @@
+_id: ut_4f3e23b2836e47c1b79a81684ccd233c
+type: UnitTest
+parentId: uts_fe907c89cc4d4c7cbc2be83b31818c18
+modified: 1667522672264
+created: 1667522659928
+requestId: req_55ab8e70728741be91c323991b632873
+name: Requisição sem autorização
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(401);
