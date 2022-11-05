@@ -1,26 +1,36 @@
 _id: req_562529efc96b499caf2c36a04ace2570
 type: Request
 parentId: wrk_524b164721dc451884214e755789237a
-modified: 1667521491438
+modified: 1667676629338
 created: 1667520218937
 url: http://localhost:3001/users/1
 name: Requisição com autorização
 description: ""
 method: GET
-body: {}
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nome_usuario":"TesteCasal",
+    	"password":"123456"
+    }
 parameters: []
 headers:
-  - id: pair_1cf21495ae15411dbb9e53753b5f5ec4
-    name: Authorization
-    value: Bearer
-      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwibm9tZV91c3VhcmlvIjoiVGVzdGVDYXNhbCIsImlhdCI6MTY2NzUyMDg3MCwiZXhwIjoxNjY4MTI1NjcwfQ.bQjU6FQGrujE5gnP0rp7hAMZqPjqChagsJGtOctDuns
+  - id: pair_4409dbac0858408190418c5cf6e561a0
+    name: ""
+    value: ""
     description: ""
+  - id: pair_c63c9b2ea7c64c0a8786da66378de6d8
+    name: ""
+    value: ""
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_5b3cb3d5e18b42438fb7b71c3c6ed68c
 authentication:
-  type: basic
-  useISO88591: false
-  disabled: true
-  username: ""
-  password: ""
+  type: bearer
+  disabled: false
+  token: "{{ _.token }}"
 metaSortKey: -1667520218937
 isPrivate: false
 settingStoreCookies: true
