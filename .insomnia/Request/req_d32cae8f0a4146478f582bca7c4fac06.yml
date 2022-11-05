@@ -1,10 +1,10 @@
 _id: req_d32cae8f0a4146478f582bca7c4fac06
 type: Request
 parentId: wrk_524b164721dc451884214e755789237a
-modified: 1667593375111
+modified: 1667657711919
 created: 1667519859370
 url: localhost:3001/users
-name: Inserção de usuário já existente
+name: Cadastro com usuário duplicado
 description: ""
 method: POST
 body:
@@ -36,6 +36,7 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_b528028ca932422f9e4220efb0cda798
 authentication: {}
 metaSortKey: -1666805783928
 isPrivate: false

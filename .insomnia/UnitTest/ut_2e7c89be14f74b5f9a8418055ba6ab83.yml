@@ -1,0 +1,10 @@
+_id: ut_2e7c89be14f74b5f9a8418055ba6ab83
+type: UnitTest
+parentId: uts_ab945962bbc849bca800beed3fa8288b
+modified: 1667657754238
+created: 1667657728204
+requestId: req_1d3602fb4fdc41728d2c7c1644cb5ec3
+name: Requisição com token expirado ou inválido
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(401);

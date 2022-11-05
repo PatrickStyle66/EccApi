@@ -1,10 +1,10 @@
 _id: req_daa1523ad7834c08a73352853032a93b
 type: Request
 parentId: wrk_524b164721dc451884214e755789237a
-modified: 1667593365501
+modified: 1667656312124
 created: 1667519917458
 url: localhost:3001/users
-name: Inserção de usuário com mesmo email
+name: Cadastro com email duplicado
 description: ""
 method: POST
 body:
@@ -36,6 +36,7 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_6a0bfd4103314d5b9785592e09628eea
 authentication: {}
 metaSortKey: -1666805783878
 isPrivate: false

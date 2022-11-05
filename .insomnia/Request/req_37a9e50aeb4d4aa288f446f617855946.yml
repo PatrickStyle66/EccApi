@@ -1,10 +1,10 @@
 _id: req_37a9e50aeb4d4aa288f446f617855946
 type: Request
 parentId: wrk_524b164721dc451884214e755789237a
-modified: 1667593570009
+modified: 1667656288862
 created: 1666805783978
 url: localhost:3001/users
-name: Inserção de usuário
+name: Cadastro bem sucedido
 description: ""
 method: POST
 body:
@@ -36,6 +36,7 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_be818944c0084e9d99ab770ae8e4fb63
 authentication: {}
 metaSortKey: -1666805783978
 isPrivate: false

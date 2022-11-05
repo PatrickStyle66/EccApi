@@ -1,0 +1,10 @@
+_id: ut_379b3d1a392a40f19378dd27adbb38a3
+type: UnitTest
+parentId: uts_5e0fa65316d747da9f05a09c58b3f062
+modified: 1667657649590
+created: 1667656176518
+requestId: req_ebe979b343df475391ae0e03b73f8490
+name: Login sem senha
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(400);
