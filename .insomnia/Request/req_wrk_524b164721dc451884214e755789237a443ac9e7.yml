@@ -1,0 +1,21 @@
+_id: req_wrk_524b164721dc451884214e755789237a443ac9e7
+type: Request
+parentId: fld_wrk_524b164721dc451884214e755789237a3a21295d
+modified: 1667753373322
+created: 1667753373322
+url: "{{ base_url }}/store/inventory"
+name: Returns pet inventories by status
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1667753373322
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

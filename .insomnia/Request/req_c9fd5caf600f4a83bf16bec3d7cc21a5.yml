@@ -1,17 +1,17 @@
-_id: req_196ea9762c014f508eb0c8c3f22460b8
+_id: req_c9fd5caf600f4a83bf16bec3d7cc21a5
 type: Request
 parentId: wrk_524b164721dc451884214e755789237a
-modified: 1667745262272
-created: 1667519988122
+modified: 1667758146187
+created: 1667757804390
 url: http://localhost:3001/tokens/
-name: Login bem sucedido
+name: Login Casal Coordenador
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"nome_usuario":"TesteCasal",
+    	"nome_usuario":"casalpatrick",
     	"password":"123456"
     }
 parameters: []
@@ -20,7 +20,7 @@ headers:
     value: application/json
     id: pair_f2b3c6f58aa841078ca7b7a7cd1998ae
 authentication: {}
-metaSortKey: -1667519988122
+metaSortKey: -1667511038404.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
