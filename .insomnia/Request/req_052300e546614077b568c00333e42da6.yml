@@ -1,19 +1,15 @@
-_id: req_562529efc96b499caf2c36a04ace2570
+_id: req_052300e546614077b568c00333e42da6
 type: Request
 parentId: wrk_524b164721dc451884214e755789237a
-modified: 1667758156006
-created: 1667520218937
-url: http://localhost:3001/users/1
-name: Requisição com autorização
+modified: 1667758619466
+created: 1667758615233
+url: http://localhost:3001/integrantes/2
+name: Requisição para Integrante com sucesso
 description: ""
 method: GET
 body:
   mimeType: application/json
-  text: |-
-    {
-    	"nome_usuario":"TesteCasal",
-    	"password":"123456"
-    }
+  text: ""
 parameters: []
 headers:
   - id: pair_4409dbac0858408190418c5cf6e561a0
@@ -30,8 +26,8 @@ headers:
 authentication:
   type: bearer
   disabled: false
-  token: "{{ _.token }}"
-metaSortKey: -1667520218937
+  token: "{{ _.token_coord }}"
+metaSortKey: -1667520175659.1875
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
