@@ -1,10 +1,10 @@
-_id: req_e8c386d2472147f4a61c15c70925ddce
+_id: req_ab0c78fe13884e0c896f81f9d343314b
 type: Request
 parentId: fld_5ab823b316044570b68eccafa6d991a0
-modified: 1667932758978
-created: 1667757053564
+modified: 1667932850686
+created: 1667930569511
 url: http://localhost:3001/aprovacao/
-name: Requisição para Aprovacao de Cadastros sem Autorizacao
+name: Requisição para Aprovacao de Cadastros com Autorizacao
 description: ""
 method: GET
 body:
@@ -26,8 +26,8 @@ headers:
 authentication:
   type: bearer
   disabled: false
-  token: "{{ _.token_coordgeral }}"
-metaSortKey: -1667520190085.125
+  token: "{{ _.token_dirigente }}"
+metaSortKey: -1667520190135.125
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

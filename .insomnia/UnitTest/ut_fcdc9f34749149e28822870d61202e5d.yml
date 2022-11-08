@@ -1,0 +1,10 @@
+_id: ut_fcdc9f34749149e28822870d61202e5d
+type: UnitTest
+parentId: uts_bd2cf81085914840a6a7673aa40b02e5
+modified: 1667930697106
+created: 1667930639978
+requestId: req_ab0c78fe13884e0c896f81f9d343314b
+name: Aprovacao de Cadastros com Autorizacao
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);
