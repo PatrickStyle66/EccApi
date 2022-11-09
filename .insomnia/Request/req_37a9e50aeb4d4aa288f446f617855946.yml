@@ -1,7 +1,7 @@
 _id: req_37a9e50aeb4d4aa288f446f617855946
 type: Request
 parentId: wrk_524b164721dc451884214e755789237a
-modified: 1667932845800
+modified: 1668029467463
 created: 1666805783978
 url: localhost:3001/users
 name: Cadastro bem sucedido
@@ -25,6 +25,8 @@ body:
     	"telefone_dela": "(82)99999-9999",
       "casamento_religioso": "true",
       "encontro_realizado": "15º",
+    	"circulo": "Verde",
+    	"temario": 1,
       "palestra_realizada": "false",
       "qual_palestra": "",
       "qual_movimento": "",
