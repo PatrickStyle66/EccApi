@@ -1,9 +1,9 @@
 _id: req_ab0c78fe13884e0c896f81f9d343314b
 type: Request
 parentId: fld_5ab823b316044570b68eccafa6d991a0
-modified: 1668029438248
+modified: 1668343969279
 created: 1667930569511
-url: http://localhost:3001/aprovacao/
+url: http://localhost:3001/cadastros/
 name: Requisição para Aprovacao de Cadastros com Autorizacao
 description: ""
 method: GET
