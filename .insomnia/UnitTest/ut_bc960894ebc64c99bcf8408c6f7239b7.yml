@@ -1,0 +1,10 @@
+_id: ut_bc960894ebc64c99bcf8408c6f7239b7
+type: UnitTest
+parentId: uts_841b796329e142baa51c6ec9e5d2f516
+modified: 1668437789802
+created: 1668437753667
+requestId: req_7b7dd8e31bf245a788443bbc46cd7484
+name: Cadastro Casal Setorial
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);

@@ -1,10 +1,10 @@
-_id: ut_4fc63a7aeb264bf998380f93f8bb58ae
+_id: ut_79d4a8b9f73d455ea10902aab781e42d
 type: UnitTest
 parentId: uts_841b796329e142baa51c6ec9e5d2f516
-modified: 1668084727575
-created: 1667597502440
+modified: 1668438495133
+created: 1668437838468
 requestId: req_d32cae8f0a4146478f582bca7c4fac06
-name: Cadastro com usuário repetido
+name: Cadastro Usuario Repetido
 code: |-
   const response1 = await insomnia.send();
   expect(response1.status).to.equal(400);

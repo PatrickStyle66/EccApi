@@ -1,0 +1,10 @@
+_id: ut_ec20ae5a688e42909c4c65a1e46251f1
+type: UnitTest
+parentId: uts_841b796329e142baa51c6ec9e5d2f516
+modified: 1668437819747
+created: 1668437817342
+requestId: req_368fe7fa36f345debd0ff23fa2c62f82
+name: Cadastro Casal Coord Equipe
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);

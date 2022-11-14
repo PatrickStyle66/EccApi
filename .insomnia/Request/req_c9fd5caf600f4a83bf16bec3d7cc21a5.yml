@@ -1,17 +1,17 @@
 _id: req_c9fd5caf600f4a83bf16bec3d7cc21a5
 type: Request
 parentId: fld_3f5df965591f473dbf86fb6a73fd0a2a
-modified: 1668430056789
+modified: 1668437948209
 created: 1667757804390
 url: http://localhost:3001/tokens/
-name: Login Casal Dirigente
+name: Login Casal Setorial
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"nome_usuario":"casalsantos",
+    	"nome_usuario":"casalsetorial",
     	"password":"123456"
     }
 parameters: []

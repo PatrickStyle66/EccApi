@@ -1,10 +1,10 @@
-_id: req_daa1523ad7834c08a73352853032a93b
+_id: req_7b7dd8e31bf245a788443bbc46cd7484
 type: Request
 parentId: fld_b87a7123eb4c4330bafab573f904ef45
-modified: 1668438653917
-created: 1667519917458
-url: http://localhost:3001/usuarios/cadastrar
-name: Cadastro com email duplicado
+modified: 1668437699045
+created: 1668437350160
+url: localhost:3001/usuarios/cadastrar
+name: Cadastro Setorial
 description: ""
 method: POST
 body:
@@ -12,11 +12,12 @@ body:
   text: |-
     {
     	"paroquia_id": 1,
+    	"funcao_id": 4,
       "nome_dele": "Jonathas Patrick",
-      "nome_usual_dele": "Patrick",
+      "nome_usual_dele": "casalsetorial ele",
       "data_nascimento_dele": "2020-1-20",
       "nome_dela": "Larah Katarina",
-      "nome_usual_dela": "Larah",
+      "nome_usual_dela": "casalsetorial ela",
       "data_nascimento_dela": "2020-1-20",
       "telefone_dele": "(82)99999-9999",
     	"telefone_dela": "(82)99999-9999",
@@ -27,17 +28,17 @@ body:
       "palestra_realizada": "false",
       "qual_palestra": "",
       "qual_movimento": "",
-      "nome_usuario": "TesteCasal2",
-      "email": "casalsemaprov@teste.com",
+      "nome_usuario": "casalsetorial",
+      "email": "casalsetorial@teste.com",
     	"password": "123456"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_6a0bfd4103314d5b9785592e09628eea
+    id: pair_be818944c0084e9d99ab770ae8e4fb63
 authentication: {}
-metaSortKey: -1668427417821.625
+metaSortKey: -1668427417909.125
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
