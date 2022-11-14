@@ -1,9 +1,9 @@
 _id: req_37a9e50aeb4d4aa288f446f617855946
 type: Request
 parentId: wrk_524b164721dc451884214e755789237a
-modified: 1668343980305
+modified: 1668430567376
 created: 1666805783978
-url: localhost:3001/usuarios
+url: localhost:3001/usuarios/cadastrar
 name: Cadastro bem sucedido
 description: ""
 method: POST
@@ -11,10 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"paroquia": "Santa catarina labouré",
-      "arqui_diocese": "maceió",
-      "cidade": "maceió",
-      "estado": "alagoas",
+    	"paroquia_id": 1,
       "nome_dele": "Jonathas Patrick",
       "nome_usual_dele": "Patrick",
       "data_nascimento_dele": "2020-1-20",

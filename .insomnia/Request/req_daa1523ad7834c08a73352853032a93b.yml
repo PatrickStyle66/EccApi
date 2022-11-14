@@ -1,9 +1,9 @@
 _id: req_daa1523ad7834c08a73352853032a93b
 type: Request
 parentId: wrk_524b164721dc451884214e755789237a
-modified: 1668343996692
+modified: 1668430566093
 created: 1667519917458
-url: http://localhost:3001/usuarios
+url: http://localhost:3001/usuarios/cadastrar
 name: Cadastro com email duplicado
 description: ""
 method: POST
@@ -11,10 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"paroquia": "Santa catarina labouré",
-      "arqui_diocese": "maceió",
-      "cidade": "maceió",
-      "estado": "alagoas",
+    	"paroquia_id": 1,
       "nome_dele": "Jonathas Patrick",
       "nome_usual_dele": "Patrick",
       "data_nascimento_dele": "2020-1-20",
