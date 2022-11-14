@@ -1,9 +1,9 @@
 _id: req_945e5802c1d84f228810ec6b25ce2d29
 type: Request
 parentId: wrk_524b164721dc451884214e755789237a
-modified: 1667753390851
+modified: 1668438798944
 created: 1667683904749
-url: http://localhost:3001/users/12349087329487320983242839
+url: http://localhost:3001/usuarios/12349087329487320983242839
 name: Requisição com autorização mas usuário não encontrado
 description: ""
 method: GET
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"nome_usuario":"TesteCasal",
+    	"nome_usuario":"casalsetorial",
     	"password":"123456"
     }
 parameters: []
@@ -30,7 +30,7 @@ headers:
 authentication:
   type: bearer
   disabled: false
-  token: "{{ _.token }}"
+  token: "{{ _.token_setorial }}"
 metaSortKey: -1667520161233.25
 isPrivate: false
 settingStoreCookies: true

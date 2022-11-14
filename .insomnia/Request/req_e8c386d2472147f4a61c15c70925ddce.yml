@@ -1,10 +1,10 @@
 _id: req_e8c386d2472147f4a61c15c70925ddce
 type: Request
-parentId: wrk_524b164721dc451884214e755789237a
-modified: 1667758606734
+parentId: fld_5ab823b316044570b68eccafa6d991a0
+modified: 1668438101338
 created: 1667757053564
-url: http://localhost:3001/integrantes/1
-name: Requisição para Integrante sem sucesso
+url: http://localhost:3001/cadastros/
+name: Requisição para Aprovacao de Cadastros sem Autorizacao
 description: ""
 method: GET
 body:
@@ -26,7 +26,7 @@ headers:
 authentication:
   type: bearer
   disabled: false
-  token: "{{ _.token_coord }}"
+  token: "{{ _.token_coordgeral }}"
 metaSortKey: -1667520190085.125
 isPrivate: false
 settingStoreCookies: true

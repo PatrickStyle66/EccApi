@@ -1,0 +1,10 @@
+_id: ut_c3104d7efba34237965dbdfcbc7ed539
+type: UnitTest
+parentId: uts_5e0fa65316d747da9f05a09c58b3f062
+modified: 1668438185038
+created: 1668438166573
+requestId: req_909d722d2cf44f9e832951757d55ac1c
+name: Login Casal Dirigente
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);

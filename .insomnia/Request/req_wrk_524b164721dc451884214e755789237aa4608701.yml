@@ -1,8 +1,8 @@
 _id: req_wrk_524b164721dc451884214e755789237aa4608701
 type: Request
 parentId: fld_wrk_524b164721dc451884214e755789237a1b034c38
-modified: 1667753373460
-created: 1667753373460
+modified: 1668438785795
+created: 1668438785795
 url: "{{ base_url }}/pet/{{ petId }}"
 name: Updates a pet in the store with form data
 description: ""
@@ -12,7 +12,7 @@ body:
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1667753373460
+metaSortKey: -1668438785795
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

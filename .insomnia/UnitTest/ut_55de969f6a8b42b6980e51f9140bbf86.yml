@@ -1,0 +1,10 @@
+_id: ut_55de969f6a8b42b6980e51f9140bbf86
+type: UnitTest
+parentId: uts_841b796329e142baa51c6ec9e5d2f516
+modified: 1668437807140
+created: 1668437804618
+requestId: req_44e42a6aa18c4d76b20853427d868e21
+name: Cadastro Casal Coord Geral
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);

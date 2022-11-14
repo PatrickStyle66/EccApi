@@ -1,0 +1,10 @@
+_id: ut_c791b08f535a4733937edcc18d593a34
+type: UnitTest
+parentId: uts_5e0fa65316d747da9f05a09c58b3f062
+modified: 1668438647721
+created: 1668438386671
+requestId: req_b94e9c3d80914d2eaaad9665ec786aad
+name: Login Casal Sem Aprovacao
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);

@@ -1,0 +1,10 @@
+_id: ut_b81f7f43453e46deaee41ebbb999a276
+type: UnitTest
+parentId: uts_841b796329e142baa51c6ec9e5d2f516
+modified: 1668437791642
+created: 1668437769626
+requestId: req_fd492781f16b429382ac7ceb1694e85d
+name: Cadastro Casal Dirigente
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);

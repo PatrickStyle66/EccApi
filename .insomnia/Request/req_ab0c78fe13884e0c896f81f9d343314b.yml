@@ -1,19 +1,15 @@
-_id: req_562529efc96b499caf2c36a04ace2570
+_id: req_ab0c78fe13884e0c896f81f9d343314b
 type: Request
-parentId: wrk_524b164721dc451884214e755789237a
-modified: 1667758156006
-created: 1667520218937
-url: http://localhost:3001/users/1
-name: Requisição com autorização
+parentId: fld_5ab823b316044570b68eccafa6d991a0
+modified: 1668438244466
+created: 1667930569511
+url: http://localhost:3001/cadastros/
+name: Requisição para Aprovacao de Cadastros com Autorizacao
 description: ""
 method: GET
 body:
   mimeType: application/json
-  text: |-
-    {
-    	"nome_usuario":"TesteCasal",
-    	"password":"123456"
-    }
+  text: ""
 parameters: []
 headers:
   - id: pair_4409dbac0858408190418c5cf6e561a0
@@ -30,8 +26,8 @@ headers:
 authentication:
   type: bearer
   disabled: false
-  token: "{{ _.token }}"
-metaSortKey: -1667520218937
+  token: "{{ _.token_dirigente }}"
+metaSortKey: -1667520190135.125
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

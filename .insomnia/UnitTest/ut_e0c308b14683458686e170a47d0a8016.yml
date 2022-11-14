@@ -1,10 +1,10 @@
-_id: ut_245cc20b793347a5b4f3c8711a87bac2
+_id: ut_e0c308b14683458686e170a47d0a8016
 type: UnitTest
 parentId: uts_5e0fa65316d747da9f05a09c58b3f062
-modified: 1667656251554
-created: 1667656149395
+modified: 1668438186449
+created: 1668438173757
 requestId: req_196ea9762c014f508eb0c8c3f22460b8
-name: Login bem sucedido
+name: Login Casal Coord Geral
 code: |-
   const response1 = await insomnia.send();
   expect(response1.status).to.equal(200);
