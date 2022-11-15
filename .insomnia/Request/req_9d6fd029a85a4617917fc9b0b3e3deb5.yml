@@ -1,10 +1,10 @@
-_id: req_37a9e50aeb4d4aa288f446f617855946
+_id: req_9d6fd029a85a4617917fc9b0b3e3deb5
 type: Request
 parentId: fld_b87a7123eb4c4330bafab573f904ef45
-modified: 1668530608858
-created: 1666805783978
+modified: 1668530190516
+created: 1668530150454
 url: localhost:3001/usuarios/cadastrar
-name: Cadastro Sem Aprovacao
+name: Cadastro Sem Funcao
 description: ""
 method: POST
 body:
@@ -12,11 +12,12 @@ body:
   text: |-
     {
     	"paroquia_id": 1,
+    	"funcao_id": 2,
       "nome_dele": "Jonathas Patrick",
-      "nome_usual_dele": "casalsemaprovacao",
+      "nome_usual_dele": "casalsemfuncao",
       "data_nascimento_dele": "2020-1-20",
       "nome_dela": "Larah Katarina",
-      "nome_usual_dela": "casalsemaprovacao",
+      "nome_usual_dela": "casalsemfuncao",
       "data_nascimento_dela": "2020-1-20",
       "telefone_dele": "(82)99999-9999",
     	"telefone_dela": "(82)99999-9999",
@@ -27,8 +28,8 @@ body:
       "palestra_realizada": "false",
       "qual_palestra": "",
       "qual_movimento": "",
-      "nome_usuario": "casalsemaprov",
-      "email": "casalsemaprov@teste.com",
+      "nome_usuario": "casalsemfuncao",
+      "email": "casalsemfuncao@teste.com",
     	"password": "123456"
     }
 parameters: []
@@ -37,7 +38,7 @@ headers:
     value: application/json
     id: pair_be818944c0084e9d99ab770ae8e4fb63
 authentication: {}
-metaSortKey: -1668427417921.625
+metaSortKey: -1668427417915.375
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

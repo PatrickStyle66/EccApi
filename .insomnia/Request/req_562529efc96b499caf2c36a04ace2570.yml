@@ -1,10 +1,10 @@
-_id: req_052300e546614077b568c00333e42da6
+_id: req_562529efc96b499caf2c36a04ace2570
 type: Request
 parentId: wrk_524b164721dc451884214e755789237a
-modified: 1668343778649
-created: 1667758615233
-url: http://localhost:3001/cadastros
-name: Requisição para Integrante com sucesso
+modified: 1668530607798
+created: 1667520218937
+url: http://localhost:3001/usuarios/1
+name: Requisição com autorização
 description: ""
 method: GET
 body:
@@ -26,8 +26,8 @@ headers:
 authentication:
   type: bearer
   disabled: false
-  token: ""
-metaSortKey: -1667520175659.1875
+  token: "{{ _.token_setorial }}"
+metaSortKey: -1667520218937
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

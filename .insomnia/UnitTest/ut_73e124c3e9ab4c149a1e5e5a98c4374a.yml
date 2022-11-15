@@ -1,0 +1,10 @@
+_id: ut_73e124c3e9ab4c149a1e5e5a98c4374a
+type: UnitTest
+parentId: uts_841b796329e142baa51c6ec9e5d2f516
+modified: 1668530186837
+created: 1668530182259
+requestId: req_9d6fd029a85a4617917fc9b0b3e3deb5
+name: Casal sem funcao
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);

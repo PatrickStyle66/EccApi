@@ -1,19 +1,19 @@
-_id: req_b930b2e6ff9847c293bebe81d8a77fcb
+_id: req_774fb5adb8da4303a2d452b25fee8163
 type: Request
 parentId: fld_bdccea68854a4565b40612da475b624b
-modified: 1668530628428
-created: 1668358664411
-url: http://localhost:3001/montagem/equipes/4/coordenadores/listar?ecc=1&rec=false
-name: Listar possiveis casais coordenadores para uma equipe
+modified: 1668532335696
+created: 1668530006015
+url: http://localhost:3001/montagem/equipes/4/integrantes/pre-selecionados/80/selecionar
+name: Selecionar pré-selecionado para integrante para uma equipe
 description: ""
-method: GET
+method: PUT
 body: {}
 parameters: []
 headers: []
 authentication:
   type: bearer
   token: "{{ _.token_dirigente }}"
-metaSortKey: -1668358664411
+metaSortKey: -1667857974805.5938
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
