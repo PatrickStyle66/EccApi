@@ -1,0 +1,42 @@
+_id: req_dcd8e04e97984a7fb11b3008a0dad311
+type: Request
+parentId: fld_ab796e4a4e2246ac8ef5c0074b548430
+modified: 1668555347262
+created: 1668555154394
+url: http://localhost:3001/casal/13/editar
+name: Editar perfil de um casal
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nome_dele": "Jonathas Patrick",
+      "nome_usual_dele": "casaleditado",
+      "data_nascimento_dele": "2020-1-20",
+      "nome_dela": "Larah Katarina",
+      "nome_usual_dela": "casaleditado",
+      "data_nascimento_dela": "2020-1-20",
+      "telefone_dele": "(82)99999-9999",
+    	"telefone_dela": "(82)99999-9999",
+      "casamento_religioso": "false",
+      "encontro_realizado": "15º",
+    	"circulo": "Verde",
+    	"temario": 2
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_896a20d2b63a442897ba561cf31bf80f
+authentication:
+  type: bearer
+  token: "{{ _.token_dirigente }}"
+metaSortKey: -1668552340747.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

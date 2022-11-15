@@ -1,0 +1,28 @@
+_id: req_7545703a0ae84cbeb803296f9de41d43
+type: Request
+parentId: fld_ab796e4a4e2246ac8ef5c0074b548430
+modified: 1668555385043
+created: 1668555366804
+url: http://localhost:3001/casal/13/excluir
+name: Deletar perfil de um casal
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_896a20d2b63a442897ba561cf31bf80f
+authentication:
+  type: bearer
+  token: "{{ _.token_dirigente }}"
+metaSortKey: -1668551013086.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
