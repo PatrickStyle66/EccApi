@@ -1,7 +1,7 @@
 _id: req_31d74688e73d4e66afa5f9699c2054eb
 type: Request
 parentId: fld_bdccea68854a4565b40612da475b624b
-modified: 1668546310585
+modified: 1668555893836
 created: 1668529655267
 url: http://localhost:3001/montagem/equipes/6/integrantes/pre-selecionados/listar
 name: Listar casais pré-selecionados para uma equipe

@@ -1,9 +1,9 @@
 _id: req_ef8347cd28a340c0af36f77b126eb6ef
 type: Request
 parentId: fld_8dfcd2708b95477ebda35a51959c9307
-modified: 1668551643769
+modified: 1668555764058
 created: 1668549767843
-url: http://localhost:3001/avaliacao/equipes/4/integrantes/
+url: http://localhost:3001/avaliacao/equipes/5/integrantes/
 name: Listar casais integrantes de uma equipe para avaliação
 description: ""
 method: GET
