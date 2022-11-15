@@ -1,18 +1,18 @@
 _id: env_aecdafbff9be46d3997e5cca74da9507
 type: Environment
 parentId: env_6ea12d6ba0ef8254db9e8c43c8d87d21418edf55
-modified: 1668438423392
+modified: 1668539209254
 created: 1667662146914
 name: Dev Tests ECC
 data:
   token_setorial: "{% response 'body', 'req_c9fd5caf600f4a83bf16bec3d7cc21a5',
-    'b64::JC50b2tlbg==::46b', 'always', 60 %}"
+    'b64::JC50b2tlbg==::46b', 'never', 60 %}"
   token_dirigente: "{% response 'body', 'req_909d722d2cf44f9e832951757d55ac1c',
-    'b64::JC50b2tlbg==::46b', 'always', 60 %}"
+    'b64::JC50b2tlbg==::46b', 'never', 60 %}"
   token_coordgeral: "{% response 'body', 'req_196ea9762c014f508eb0c8c3f22460b8',
-    'b64::JC50b2tlbg==::46b', 'always', 60 %}"
+    'b64::JC50b2tlbg==::46b', 'never', 60 %}"
   token_naoaprovado: "{% response 'body', 'req_b94e9c3d80914d2eaaad9665ec786aad',
-    'b64::JC50b2tlbg==::46b', 'always', 60 %}"
+    'b64::JC50b2tlbg==::46b', 'never', 60 %}"
 dataPropertyOrder:
   "&":
     - token_setorial

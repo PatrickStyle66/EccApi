@@ -1,12 +1,12 @@
-_id: req_ab0c78fe13884e0c896f81f9d343314b
+_id: req_de293024c46b485bb0f52d10cffc7c9e
 type: Request
 parentId: fld_5ab823b316044570b68eccafa6d991a0
-modified: 1668539679200
-created: 1667930569511
-url: http://localhost:3001/cadastros/
-name: Requisição para Aprovacao de Cadastros com Autorizacao
+modified: 1668539677264
+created: 1668537627823
+url: http://localhost:3001/cadastros/11/remover
+name: Remover um cadastro com Autorizacao
 description: ""
-method: GET
+method: DELETE
 body:
   mimeType: application/json
   text: ""
@@ -27,7 +27,7 @@ authentication:
   type: bearer
   disabled: false
   token: "{{ _.token_dirigente }}"
-metaSortKey: -1667520190135.125
+metaSortKey: -1667520190097.625
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
