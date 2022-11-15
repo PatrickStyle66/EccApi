@@ -1,0 +1,23 @@
+_id: req_6a33d2ec80734143be6b8a3159b3199f
+type: Request
+parentId: fld_8dfcd2708b95477ebda35a51959c9307
+modified: 1668550514597
+created: 1668549717428
+url: http://localhost:3001/avaliacao/equipes/4/coordenadores/
+name: Listar casais coordenadores de uma equipe para avaliação
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token_dirigente }}"
+metaSortKey: -1668549685426
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

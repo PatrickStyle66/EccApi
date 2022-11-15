@@ -1,0 +1,32 @@
+_id: req_7949bc0d0a4841428472e1891da5b3d8
+type: Request
+parentId: fld_8dfcd2708b95477ebda35a51959c9307
+modified: 1668551656206
+created: 1668550500271
+url: http://localhost:3001/avaliacao/equipes/4/coordenadores/13/avaliar
+name: Avaliar Casal Coordenador de uma equipe
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"recomendacao": "true",
+    	"texto": "Ola pessoas, esse eh um texto de avaliacao"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_cdb6da2c01044aae872e18f8fdbcf4be
+authentication:
+  type: bearer
+  token: "{{ _.token_dirigente }}"
+metaSortKey: -1668457984797.7188
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

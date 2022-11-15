@@ -1,0 +1,32 @@
+_id: req_fec6523a874240ee87c4ea2241c81231
+type: Request
+parentId: fld_8dfcd2708b95477ebda35a51959c9307
+modified: 1668551764070
+created: 1668551636331
+url: http://localhost:3001/avaliacao/equipes/4/integrantes/93/avaliar
+name: Avaliar Casal Integrante de uma equipe
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"recomendacao": "true",
+    	"texto": "Ola pessoas, esse eh um texto de avaliacao"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_cdb6da2c01044aae872e18f8fdbcf4be
+authentication:
+  type: bearer
+  token: "{{ _.token_dirigente }}"
+metaSortKey: -1668442701359.6719
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

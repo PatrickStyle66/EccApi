@@ -1,0 +1,23 @@
+_id: req_ef8347cd28a340c0af36f77b126eb6ef
+type: Request
+parentId: fld_8dfcd2708b95477ebda35a51959c9307
+modified: 1668551643769
+created: 1668549767843
+url: http://localhost:3001/avaliacao/equipes/4/integrantes/
+name: Listar casais integrantes de uma equipe para avaliação
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token_dirigente }}"
+metaSortKey: -1668488551673.8125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
