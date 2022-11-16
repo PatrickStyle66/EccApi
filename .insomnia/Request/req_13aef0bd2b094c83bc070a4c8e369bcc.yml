@@ -1,0 +1,30 @@
+_id: req_13aef0bd2b094c83bc070a4c8e369bcc
+type: Request
+parentId: fld_3f5df965591f473dbf86fb6a73fd0a2a
+modified: 1668530493649
+created: 1668530205302
+url: http://localhost:3001/tokens/
+name: Login Casal Sem Funcao
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nome_usuario":"casalsemfuncao",
+    	"password":"123456"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f2b3c6f58aa841078ca7b7a7cd1998ae
+authentication: {}
+metaSortKey: -1667841823484.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

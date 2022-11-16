@@ -1,10 +1,10 @@
-_id: req_b930b2e6ff9847c293bebe81d8a77fcb
+_id: req_ef8347cd28a340c0af36f77b126eb6ef
 type: Request
-parentId: fld_bdccea68854a4565b40612da475b624b
-modified: 1668555902186
-created: 1668358664411
-url: http://localhost:3001/montagem/equipes/4/coordenadores/listar?ecc=1&rec=false
-name: Listar possiveis casais coordenadores para uma equipe
+parentId: fld_8dfcd2708b95477ebda35a51959c9307
+modified: 1668555764058
+created: 1668549767843
+url: http://localhost:3001/avaliacao/equipes/5/integrantes/
+name: Listar casais integrantes de uma equipe para avaliação
 description: ""
 method: GET
 body: {}
@@ -13,7 +13,7 @@ headers: []
 authentication:
   type: bearer
   token: "{{ _.token_dirigente }}"
-metaSortKey: -1668358664411
+metaSortKey: -1668488551673.8125
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

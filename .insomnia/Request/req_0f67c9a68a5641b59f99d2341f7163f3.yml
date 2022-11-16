@@ -1,19 +1,15 @@
-_id: req_945e5802c1d84f228810ec6b25ce2d29
+_id: req_0f67c9a68a5641b59f99d2341f7163f3
 type: Request
-parentId: fld_4ab979872c384535b9411b8da7b6b793
-modified: 1668549652719
-created: 1667683904749
-url: http://localhost:3001/usuarios/12349087329487320983242839
-name: Requisição com autorização mas usuário não encontrado
+parentId: fld_5ab823b316044570b68eccafa6d991a0
+modified: 1668556009363
+created: 1668537273031
+url: http://localhost:3001/cadastros/4/aprovar
+name: Aprovar um cadastro com Autorizacao
 description: ""
-method: GET
+method: PUT
 body:
   mimeType: application/json
-  text: |-
-    {
-    	"nome_usuario":"casalsetorial",
-    	"password":"123456"
-    }
+  text: ""
 parameters: []
 headers:
   - id: pair_4409dbac0858408190418c5cf6e561a0
@@ -30,8 +26,8 @@ headers:
 authentication:
   type: bearer
   disabled: false
-  token: "{{ _.token_setorial }}"
-metaSortKey: -1667520218987
+  token: "{{ _.token_dirigente }}"
+metaSortKey: -1667520190110.125
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
