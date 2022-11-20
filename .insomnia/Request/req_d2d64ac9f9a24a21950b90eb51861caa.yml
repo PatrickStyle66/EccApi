@@ -1,0 +1,35 @@
+_id: req_d2d64ac9f9a24a21950b90eb51861caa
+type: Request
+parentId: wrk_524b164721dc451884214e755789237a
+modified: 1668983994534
+created: 1668814177017
+url: localhost:3001/uploads/usuario/132/foto
+name: Upload de imagem de usuário
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_2624972fc1f2446195b42f49a59bb150
+      name: imagem
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\jpham\OneDrive\Imagens\cebolinha stand.png
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_28e773e5840f4424931407ca62f50184
+authentication:
+  type: bearer
+  token: "{{ _.token_dirigente }}"
+  disabled: false
+metaSortKey: -1668814177017
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
