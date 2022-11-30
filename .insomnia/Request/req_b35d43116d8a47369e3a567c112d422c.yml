@@ -1,0 +1,23 @@
+_id: req_b35d43116d8a47369e3a567c112d422c
+type: Request
+parentId: fld_ab796e4a4e2246ac8ef5c0074b548430
+modified: 1669768967571
+created: 1669737533045
+url: http://localhost:3001/casal/140/foto
+name: Acessar foto de perfil de casal
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token_dirigente }}"
+metaSortKey: -1668551013036.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
