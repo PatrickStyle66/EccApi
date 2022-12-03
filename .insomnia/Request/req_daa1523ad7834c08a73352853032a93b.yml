@@ -1,7 +1,7 @@
 _id: req_daa1523ad7834c08a73352853032a93b
 type: Request
 parentId: fld_b87a7123eb4c4330bafab573f904ef45
-modified: 1668438653917
+modified: 1668688837874
 created: 1667519917458
 url: http://localhost:3001/usuarios/cadastrar
 name: Cadastro com email duplicado
@@ -18,8 +18,8 @@ body:
       "nome_dela": "Larah Katarina",
       "nome_usual_dela": "Larah",
       "data_nascimento_dela": "2020-1-20",
-      "telefone_dele": "(82)99999-9999",
-    	"telefone_dela": "(82)99999-9999",
+      "telefone_dele": "(82) 99999-9999",
+    	"telefone_dela": "(82) 99999-9999",
       "casamento_religioso": "true",
       "encontro_realizado": "15º",
     	"circulo": "Verde",

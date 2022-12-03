@@ -1,10 +1,10 @@
-_id: req_ef8347cd28a340c0af36f77b126eb6ef
+_id: req_16a570839e2442e9b4bfa63fccaff7b1
 type: Request
-parentId: fld_8dfcd2708b95477ebda35a51959c9307
-modified: 1670103288338
-created: 1668549767843
-url: http://localhost:3001/avaliacao/equipes/4/integrantes/
-name: Listar casais integrantes de uma equipe para avaliação
+parentId: fld_ab796e4a4e2246ac8ef5c0074b548430
+modified: 1670102945355
+created: 1669998475375
+url: http://localhost:3001/casal/buscar/?q=bea
+name: Buscar perfil de um casal
 description: ""
 method: GET
 body: {}
@@ -13,7 +13,7 @@ headers: []
 authentication:
   type: bearer
   token: "{{ _.token_dirigente }}"
-metaSortKey: -1668488551673.8125
+metaSortKey: -1668553668408.25
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

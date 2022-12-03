@@ -1,28 +1,31 @@
-_id: req_fec6523a874240ee87c4ea2241c81231
+_id: req_6e78159b07f640fea9329af9b114adc3
 type: Request
-parentId: fld_8dfcd2708b95477ebda35a51959c9307
-modified: 1670103297596
-created: 1668551636331
-url: http://localhost:3001/avaliacao/equipes/4/integrantes/108/avaliar
-name: Avaliar Casal Integrante de uma equipe
+parentId: fld_621753d0d02a4ef3bcfc7c1ca97da357
+modified: 1670102846433
+created: 1670084763717
+url: http://localhost:3001/participacoes/registrar
+name: Adicionar registro de participacao
 description: ""
 method: PUT
 body:
   mimeType: application/json
   text: |-
     {
-    	"recomendacao": "true",
-    	"texto": "Ola pessoas, esse eh um texto de avaliacao"
+    	"casal_id": 14,
+    	"encontro_id": 12,
+      "funcao_id": 7,
+    	"equipe_id": 3,
+    	"recomendacao": "false"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_cdb6da2c01044aae872e18f8fdbcf4be
+    id: pair_896a20d2b63a442897ba561cf31bf80f
 authentication:
   type: bearer
   token: "{{ _.token_dirigente }}"
-metaSortKey: -1668442701359.6719
+metaSortKey: -1669319396451.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

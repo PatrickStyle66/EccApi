@@ -1,17 +1,17 @@
-_id: req_b94e9c3d80914d2eaaad9665ec786aad
+_id: req_78242641b3954c49af5f96e7131aeaf3
 type: Request
 parentId: fld_3f5df965591f473dbf86fb6a73fd0a2a
-modified: 1669998066056
-created: 1668438314794
+modified: 1670094038003
+created: 1670094021891
 url: http://localhost:3001/tokens/
-name: Login Casal Sem Aprovacao
+name: Login Casal Setorial
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"nome_usuario":"casalsemaprov",
+    	"nome_usuario":"casalsetorial",
     	"password":"123456"
     }
 parameters: []
@@ -20,7 +20,7 @@ headers:
     value: application/json
     id: pair_f2b3c6f58aa841078ca7b7a7cd1998ae
 authentication: {}
-metaSortKey: -1667841823490.5
+metaSortKey: -1667841823521.75
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

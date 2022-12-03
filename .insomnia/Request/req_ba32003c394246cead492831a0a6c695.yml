@@ -1,9 +1,9 @@
 _id: req_ba32003c394246cead492831a0a6c695
 type: Request
 parentId: fld_bdccea68854a4565b40612da475b624b
-modified: 1668556077994
+modified: 1670103215571
 created: 1668529858755
-url: http://localhost:3001/montagem/equipes/4/coordenadores/25/selecionar
+url: http://localhost:3001/montagem/equipes/4/coordenadores/11/selecionar
 name: Selecionar casal coordenador para uma equipe
 description: ""
 method: PUT

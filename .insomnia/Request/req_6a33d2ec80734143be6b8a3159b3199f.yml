@@ -1,7 +1,7 @@
 _id: req_6a33d2ec80734143be6b8a3159b3199f
 type: Request
 parentId: fld_8dfcd2708b95477ebda35a51959c9307
-modified: 1668555456713
+modified: 1670103261817
 created: 1668549717428
 url: http://localhost:3001/avaliacao/equipes/4/coordenadores/
 name: Listar casais coordenadores de uma equipe para avaliação

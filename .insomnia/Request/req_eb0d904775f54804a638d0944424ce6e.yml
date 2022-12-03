@@ -1,15 +1,19 @@
-_id: req_7545703a0ae84cbeb803296f9de41d43
+_id: req_eb0d904775f54804a638d0944424ce6e
 type: Request
-parentId: fld_ab796e4a4e2246ac8ef5c0074b548430
-modified: 1670102951716
-created: 1668555366804
-url: http://localhost:3001/casal/13/excluir
-name: Deletar perfil de um casal
+parentId: fld_621753d0d02a4ef3bcfc7c1ca97da357
+modified: 1670102851252
+created: 1670093355734
+url: http://localhost:3001/participacoes/encontro-atual/finalizar
+name: Finalizar encontro atual
 description: ""
-method: DELETE
+method: PUT
 body:
   mimeType: application/json
-  text: ""
+  text: |-
+    {
+    	"data_inicio": "2020-01-20",
+    	"data_termino": "2020-01-20"
+    }
 parameters: []
 headers:
   - name: Content-Type
@@ -17,8 +21,8 @@ headers:
     id: pair_896a20d2b63a442897ba561cf31bf80f
 authentication:
   type: bearer
-  token: "{{ _.token_dirigente }}"
-metaSortKey: -1668551013086.75
+  token: "{{ _.token_setorial }}"
+metaSortKey: -1668937196260.25
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

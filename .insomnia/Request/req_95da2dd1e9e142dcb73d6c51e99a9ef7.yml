@@ -1,10 +1,10 @@
-_id: req_c6a5e5e6edfe43da93b7eadeb48a204a
+_id: req_95da2dd1e9e142dcb73d6c51e99a9ef7
 type: Request
 parentId: fld_b87a7123eb4c4330bafab573f904ef45
-modified: 1668645604055
-created: 1668437630261
+modified: 1670094011877
+created: 1670093942048
 url: localhost:3001/usuarios/cadastrar
-name: Cadastro Int Equipe
+name: Cadastro Administrador
 description: ""
 method: POST
 body:
@@ -12,12 +12,12 @@ body:
   text: |-
     {
     	"paroquia_id": 1,
-    	"funcao_id": 8,
+    	"funcao_id": 2,
       "nome_dele": "Jonathas Patrick",
-      "nome_usual_dele": "casalintequipe ele",
+      "nome_usual_dele": "casaladm",
       "data_nascimento_dele": "2020-1-20",
       "nome_dela": "Larah Katarina",
-      "nome_usual_dela": "casalintequipe ela",
+      "nome_usual_dela": "casaladm",
       "data_nascimento_dela": "2020-1-20",
       "telefone_dele": "(82) 99999-9999",
     	"telefone_dela": "(82) 99999-9999",
@@ -28,8 +28,8 @@ body:
       "palestra_realizada": "false",
       "qual_palestra": "",
       "qual_movimento": "",
-      "nome_usuario": "casalintequipe",
-      "email": "casalintequipe@teste.com",
+      "nome_usuario": "casaladm",
+      "email": "casaladm@teste.com",
     	"password": "123456"
     }
 parameters: []
@@ -38,7 +38,7 @@ headers:
     value: application/json
     id: pair_be818944c0084e9d99ab770ae8e4fb63
 authentication: {}
-metaSortKey: -1668427417874.75
+metaSortKey: -1668427417912.25
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
