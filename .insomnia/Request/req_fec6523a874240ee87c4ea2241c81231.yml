@@ -1,9 +1,9 @@
 _id: req_fec6523a874240ee87c4ea2241c81231
 type: Request
 parentId: fld_8dfcd2708b95477ebda35a51959c9307
-modified: 1670103297596
+modified: 1670180984123
 created: 1668551636331
-url: http://localhost:3001/avaliacao/equipes/4/integrantes/108/avaliar
+url: http://localhost:3001/avaliacao/equipes/9/integrantes/24/avaliar
 name: Avaliar Casal Integrante de uma equipe
 description: ""
 method: PUT

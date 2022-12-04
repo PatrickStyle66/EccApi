@@ -1,9 +1,9 @@
 _id: req_b435b47a54de46e1ae7a5581f0520669
 type: Request
 parentId: fld_ab796e4a4e2246ac8ef5c0074b548430
-modified: 1670102943680
+modified: 1670185507815
 created: 1668554996069
-url: http://localhost:3001/casal/14
+url: http://localhost:3001/participacoes/casal/15/listar
 name: Ver perfil de um casal
 description: ""
 method: GET
