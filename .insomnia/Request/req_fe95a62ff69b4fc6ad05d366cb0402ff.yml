@@ -1,15 +1,23 @@
 _id: req_fe95a62ff69b4fc6ad05d366cb0402ff
 type: Request
 parentId: fld_bdccea68854a4565b40612da475b624b
-modified: 1668555985599
+modified: 1670184697679
 created: 1668530015927
-url: http://localhost:3001/montagem/equipes/4/integrantes/pre-selecionados/53/cancelar
+url: http://localhost:3001/montagem/equipes/12/integrantes/pre-selecionados/143/cancelar
 name: Cancelar pré-selecionado para integrante para uma equipe
 description: ""
 method: PUT
-body: {}
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"motivo": "casal teve motivo x e y e morreu e se separou"
+    }
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_c81cf3ea1909436b88b241838ae83d18
 authentication:
   type: bearer
   token: "{{ _.token_dirigente }}"

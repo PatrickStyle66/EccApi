@@ -1,9 +1,9 @@
 _id: req_b930b2e6ff9847c293bebe81d8a77fcb
 type: Request
 parentId: fld_bdccea68854a4565b40612da475b624b
-modified: 1668555902186
+modified: 1670181084104
 created: 1668358664411
-url: http://localhost:3001/montagem/equipes/4/coordenadores/listar?ecc=1&rec=false
+url: http://localhost:3001/montagem/equipes/9/coordenadores/listar?ecc=1&rec=false
 name: Listar possiveis casais coordenadores para uma equipe
 description: ""
 method: GET

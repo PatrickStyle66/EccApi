@@ -1,10 +1,10 @@
-_id: req_b435b47a54de46e1ae7a5581f0520669
+_id: req_59bf7fcb0ffd4c1a82e6e9dece637555
 type: Request
-parentId: fld_ab796e4a4e2246ac8ef5c0074b548430
-modified: 1670185507815
-created: 1668554996069
-url: http://localhost:3001/participacoes/casal/15/listar
-name: Ver perfil de um casal
+parentId: fld_05e4d77027ca4526975b601485839494
+modified: 1670203147753
+created: 1670200690031
+url: http://localhost:3001/paroquias/1/dirigentes/listar
+name: Listar casais dirigentes
 description: ""
 method: GET
 body: {}
@@ -12,8 +12,8 @@ parameters: []
 headers: []
 authentication:
   type: bearer
-  token: "{{ _.token_dirigente }}"
-metaSortKey: -1668554996069
+  token: "{{ _.token_adm }}"
+metaSortKey: -1670194669228.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

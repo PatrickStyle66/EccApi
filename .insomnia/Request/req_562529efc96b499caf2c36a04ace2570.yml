@@ -1,9 +1,9 @@
 _id: req_562529efc96b499caf2c36a04ace2570
 type: Request
 parentId: fld_4ab979872c384535b9411b8da7b6b793
-modified: 1668549650100
+modified: 1670109004102
 created: 1667520218937
-url: http://localhost:3001/usuarios/1
+url: http://localhost:3001/usuarios/66
 name: Requisição com autorização
 description: ""
 method: GET

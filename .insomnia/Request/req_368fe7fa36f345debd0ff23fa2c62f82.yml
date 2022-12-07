@@ -1,7 +1,7 @@
 _id: req_368fe7fa36f345debd0ff23fa2c62f82
 type: Request
 parentId: fld_b87a7123eb4c4330bafab573f904ef45
-modified: 1668437619925
+modified: 1668645601034
 created: 1668437591791
 url: localhost:3001/usuarios/cadastrar
 name: Cadastro Coord Equipe
@@ -19,8 +19,8 @@ body:
       "nome_dela": "Larah Katarina",
       "nome_usual_dela": "casalcoordequipe ela",
       "data_nascimento_dela": "2020-1-20",
-      "telefone_dele": "(82)99999-9999",
-    	"telefone_dela": "(82)99999-9999",
+      "telefone_dele": "(82) 99999-9999",
+    	"telefone_dela": "(82) 99999-9999",
       "casamento_religioso": "true",
       "encontro_realizado": "15º",
     	"circulo": "Verde",

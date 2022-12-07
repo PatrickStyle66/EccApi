@@ -1,12 +1,12 @@
-_id: req_7545703a0ae84cbeb803296f9de41d43
+_id: req_bf18156163134a1ea75aa699c21fc4c5
 type: Request
-parentId: fld_ab796e4a4e2246ac8ef5c0074b548430
-modified: 1670180940793
-created: 1668555366804
-url: http://localhost:3001/casal/13/excluir
-name: Deletar perfil de um casal
+parentId: fld_05e4d77027ca4526975b601485839494
+modified: 1670203287956
+created: 1670202101997
+url: http://localhost:3001/paroquias/setoriais/casal/5/eleger
+name: Eleger casal como setorial
 description: ""
-method: DELETE
+method: PUT
 body:
   mimeType: application/json
   text: ""
@@ -14,11 +14,11 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_896a20d2b63a442897ba561cf31bf80f
+    id: pair_d492383d594148098c096be8d903e359
 authentication:
   type: bearer
-  token: "{{ _.token_dirigente }}"
-metaSortKey: -1668551013086.75
+  token: "{{ _.token_adm }}"
+metaSortKey: -1670178558615.625
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,7 +1,7 @@
 _id: req_1d3602fb4fdc41728d2c7c1644cb5ec3
 type: Request
 parentId: fld_4ab979872c384535b9411b8da7b6b793
-modified: 1668549663836
+modified: 1669993957686
 created: 1667521559572
 url: http://localhost:3001/usuarios/1
 name: Requisição com token expirado ou inválido
@@ -15,11 +15,7 @@ headers:
     value: ddas
     description: ""
 authentication:
-  type: basic
-  useISO88591: false
-  disabled: true
-  username: ""
-  password: ""
+  type: bearer
 metaSortKey: -1667520219087
 isPrivate: false
 settingStoreCookies: true

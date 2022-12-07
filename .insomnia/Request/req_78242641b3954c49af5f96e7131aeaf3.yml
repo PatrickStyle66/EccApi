@@ -1,17 +1,17 @@
-_id: req_c9fd5caf600f4a83bf16bec3d7cc21a5
+_id: req_78242641b3954c49af5f96e7131aeaf3
 type: Request
 parentId: fld_3f5df965591f473dbf86fb6a73fd0a2a
-modified: 1670200884760
-created: 1667757804390
+modified: 1670184100982
+created: 1670094021891
 url: http://localhost:3001/tokens/
-name: Login Administrador
+name: Login Casal Setorial
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"nome_usuario":"casaladm",
+    	"nome_usuario":"casalsetorial",
     	"password":"123456"
     }
 parameters: []
@@ -20,7 +20,7 @@ headers:
     value: application/json
     id: pair_f2b3c6f58aa841078ca7b7a7cd1998ae
 authentication: {}
-metaSortKey: -1667841823528
+metaSortKey: -1667841823521.75
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

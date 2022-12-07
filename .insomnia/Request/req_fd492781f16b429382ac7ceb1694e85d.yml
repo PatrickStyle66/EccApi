@@ -1,7 +1,7 @@
 _id: req_fd492781f16b429382ac7ceb1694e85d
 type: Request
 parentId: fld_b87a7123eb4c4330bafab573f904ef45
-modified: 1668437890939
+modified: 1668645598196
 created: 1668437298571
 url: localhost:3001/usuarios/cadastrar
 name: Cadastro Dirigente
@@ -19,8 +19,8 @@ body:
       "nome_dela": "Larah Katarina",
       "nome_usual_dela": "casaldirigente ela",
       "data_nascimento_dela": "2020-1-20",
-      "telefone_dele": "(82)99999-9999",
-    	"telefone_dela": "(82)99999-9999",
+      "telefone_dele": "(82) 99999-9999",
+    	"telefone_dela": "(82) 99999-9999",
       "casamento_religioso": "true",
       "encontro_realizado": "15º",
     	"circulo": "Verde",

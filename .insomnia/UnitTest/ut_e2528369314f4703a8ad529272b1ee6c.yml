@@ -1,0 +1,10 @@
+_id: ut_e2528369314f4703a8ad529272b1ee6c
+type: UnitTest
+parentId: uts_841b796329e142baa51c6ec9e5d2f516
+modified: 1670093997916
+created: 1670093993653
+requestId: req_95da2dd1e9e142dcb73d6c51e99a9ef7
+name: Cadastro Adm
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);
