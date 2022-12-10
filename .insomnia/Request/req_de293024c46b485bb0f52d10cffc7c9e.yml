@@ -1,9 +1,9 @@
 _id: req_de293024c46b485bb0f52d10cffc7c9e
 type: Request
 parentId: fld_5ab823b316044570b68eccafa6d991a0
-modified: 1670181145748
+modified: 1670258543303
 created: 1668537627823
-url: http://localhost:3001/cadastros/4/rejeitar
+url: http://localhost:3001/cadastros/36/rejeitar
 name: Remover um cadastro com Autorizacao
 description: ""
 method: DELETE

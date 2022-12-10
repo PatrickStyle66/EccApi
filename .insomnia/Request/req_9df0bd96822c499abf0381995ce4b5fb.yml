@@ -1,0 +1,21 @@
+_id: req_9df0bd96822c499abf0381995ce4b5fb
+type: Request
+parentId: fld_b87a7123eb4c4330bafab573f904ef45
+modified: 1670249650796
+created: 1670249594167
+url: http://localhost:3001/tokens/cadastro-info
+name: Informações de Cadastro
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1670249594167
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
