@@ -1,7 +1,7 @@
 _id: req_6e78159b07f640fea9329af9b114adc3
 type: Request
 parentId: fld_621753d0d02a4ef3bcfc7c1ca97da357
-modified: 1670202888839
+modified: 1670575567999
 created: 1670084763717
 url: http://localhost:3001/participacoes/registrar
 name: Adicionar registro de participacao
@@ -11,11 +11,12 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"casal_id": 12,
+    	"casal_id": 11,
     	"encontro_id": 12,
       "funcao_id": 7,
     	"equipe_id": 3,
-    	"recomendacao": "false"
+    	"recomendacao": "false",
+    	"tema": "Penitência"
     }
 parameters: []
 headers:
