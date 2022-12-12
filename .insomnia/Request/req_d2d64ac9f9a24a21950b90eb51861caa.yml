@@ -1,12 +1,12 @@
 _id: req_d2d64ac9f9a24a21950b90eb51861caa
 type: Request
 parentId: fld_54a43eae249a43479b657945662bd430
-modified: 1669687232545
+modified: 1670876351158
 created: 1668814177017
-url: localhost:3001/uploads/usuario/130/foto
+url: localhost:3001/uploads/usuario/258/foto
 name: Upload de imagem de usuário
 description: ""
-method: POST
+method: PUT
 body:
   mimeType: multipart/form-data
   params:
@@ -15,7 +15,7 @@ body:
       value: ""
       description: ""
       type: file
-      fileName: C:\Users\jpham\OneDrive\Imagens\cebolinha stand.png
+      fileName: C:\Users\jpham\Downloads\selfieCasal.jpg
 parameters: []
 headers:
   - name: Content-Type
