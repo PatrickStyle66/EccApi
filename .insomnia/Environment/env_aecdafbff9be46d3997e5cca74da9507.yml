@@ -1,7 +1,7 @@
 _id: env_aecdafbff9be46d3997e5cca74da9507
 type: Environment
 parentId: env_6ea12d6ba0ef8254db9e8c43c8d87d21418edf55
-modified: 1670201124178
+modified: 1670878237802
 created: 1667662146914
 name: Dev Tests ECC
 data:
@@ -15,6 +15,8 @@ data:
     'b64::JC50b2tlbg==::46b', 'never', 60 %}"
   token_naoaprovado: "{% response 'body', 'req_b94e9c3d80914d2eaaad9665ec786aad',
     'b64::JC50b2tlbg==::46b', 'never', 60 %}"
+  token_integracao: "{% response 'body', 'req_aac9f1c885044f93bf9725a75ea7c79d',
+    'b64::JC50b2tlbg==::46b', 'never', 60 %}"
 dataPropertyOrder:
   "&":
     - token_adm
@@ -22,6 +24,7 @@ dataPropertyOrder:
     - token_dirigente
     - token_coordgeral
     - token_naoaprovado
+    - token_integracao
 color: null
 isPrivate: false
 metaSortKey: 1667662146914

@@ -1,19 +1,19 @@
-_id: req_b435b47a54de46e1ae7a5581f0520669
+_id: req_44e05a45792848999b71e8efe5a9f3a5
 type: Request
-parentId: fld_ab796e4a4e2246ac8ef5c0074b548430
-modified: 1670798358948
-created: 1668554996069
-url: http://localhost:3001/participacoes/casal/4/listar
-name: Ver participacoes anteriores de um casal
+parentId: fld_bdccea68854a4565b40612da475b624b
+modified: 1670708077887
+created: 1670707693402
+url: http://localhost:3001/montagem/coordenador-geral/34/selecionar
+name: Selecionar casal coordenador geral
 description: ""
-method: GET
+method: PUT
 body: {}
 parameters: []
 headers: []
 authentication:
   type: bearer
   token: "{{ _.token_dirigente }}"
-metaSortKey: -1668554996069
+metaSortKey: -1667890277360.7812
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

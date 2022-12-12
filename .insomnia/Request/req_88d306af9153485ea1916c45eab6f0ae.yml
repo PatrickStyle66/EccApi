@@ -1,9 +1,9 @@
 _id: req_88d306af9153485ea1916c45eab6f0ae
 type: Request
 parentId: fld_621753d0d02a4ef3bcfc7c1ca97da357
-modified: 1670245491173
+modified: 1670878288021
 created: 1670185465979
-url: http://localhost:3001/participacoes/casal/15/listar
+url: http://localhost:3001/participacoes/casal/4/listar
 name: Listar participações de um casal
 description: ""
 method: GET

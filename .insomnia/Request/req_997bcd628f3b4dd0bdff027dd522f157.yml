@@ -1,10 +1,10 @@
-_id: req_b435b47a54de46e1ae7a5581f0520669
+_id: req_997bcd628f3b4dd0bdff027dd522f157
 type: Request
 parentId: fld_ab796e4a4e2246ac8ef5c0074b548430
-modified: 1670798358948
-created: 1668554996069
-url: http://localhost:3001/participacoes/casal/4/listar
-name: Ver participacoes anteriores de um casal
+modified: 1670878291590
+created: 1670758865018
+url: http://localhost:3001/casal/265
+name: Ver perfil de um casal
 description: ""
 method: GET
 body: {}
@@ -12,8 +12,8 @@ parameters: []
 headers: []
 authentication:
   type: bearer
-  token: "{{ _.token_dirigente }}"
-metaSortKey: -1668554996069
+  token: "{{ _.token_integracao }}"
+metaSortKey: -1668554332238.625
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

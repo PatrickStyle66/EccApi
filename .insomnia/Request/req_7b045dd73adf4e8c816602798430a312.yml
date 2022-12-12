@@ -1,7 +1,7 @@
 _id: req_7b045dd73adf4e8c816602798430a312
 type: Request
 parentId: fld_bdccea68854a4565b40612da475b624b
-modified: 1670684655521
+modified: 1670708080830
 created: 1670684626561
 url: http://localhost:3001/montagem/coordenador-geral/listar?ecc=1&rec=false
 name: Listar possiveis casais coordenadores geral
