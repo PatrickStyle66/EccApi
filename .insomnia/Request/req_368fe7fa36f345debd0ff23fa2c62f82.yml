@@ -1,7 +1,7 @@
 _id: req_368fe7fa36f345debd0ff23fa2c62f82
 type: Request
 parentId: fld_b87a7123eb4c4330bafab573f904ef45
-modified: 1670802855897
+modified: 1670931694077
 created: 1668437591791
 url: localhost:3001/usuarios/cadastrar
 name: Cadastro Coord Equipe
@@ -13,6 +13,7 @@ body:
     {
     	"paroquia_id": 1,
     	"funcao_id": 7,
+    	"equipe_id": 18,
       "nome_dele": "Jonathas Patrick",
       "nome_usual_dele": "casalcoordequipe ele",
       "data_nascimento_dele": "2020-1-20",

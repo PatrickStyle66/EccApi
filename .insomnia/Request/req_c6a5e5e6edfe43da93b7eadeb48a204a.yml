@@ -1,7 +1,7 @@
 _id: req_c6a5e5e6edfe43da93b7eadeb48a204a
 type: Request
 parentId: fld_b87a7123eb4c4330bafab573f904ef45
-modified: 1670878192152
+modified: 1670931715075
 created: 1668437630261
 url: localhost:3001/usuarios/cadastrar
 name: Cadastro Int Equipe
@@ -13,6 +13,7 @@ body:
     {
     	"paroquia_id": 1,
     	"funcao_id": 8,
+    	"equipe_id": 18,
       "nome_dele": "Jonathas Patrick",
       "nome_usual_dele": "casalintequipe ele",
       "data_nascimento_dele": "2020-1-20",
