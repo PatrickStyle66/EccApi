@@ -1,7 +1,7 @@
 _id: req_44e42a6aa18c4d76b20853427d868e21
 type: Request
 parentId: fld_b87a7123eb4c4330bafab573f904ef45
-modified: 1670931737130
+modified: 1671043785593
 created: 1668437498010
 url: localhost:3001/usuarios/cadastrar
 name: Cadastro Coord Geral
@@ -30,7 +30,7 @@ body:
       "qual_movimento": "",
       "nome_usuario": "casalcoordgeral",
       "email": "casalcoordgeral@teste.com",
-    	"password": "123456"
+    	"password": "ecc@cgeral123"
     }
 parameters: []
 headers:

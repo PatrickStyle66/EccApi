@@ -1,7 +1,7 @@
 _id: req_7b7dd8e31bf245a788443bbc46cd7484
 type: Request
 parentId: fld_b87a7123eb4c4330bafab573f904ef45
-modified: 1670802857355
+modified: 1671043761271
 created: 1668437350160
 url: localhost:3001/usuarios/cadastrar
 name: Cadastro Setorial
@@ -30,7 +30,7 @@ body:
       "qual_movimento": "",
       "nome_usuario": "casalsetorial",
       "email": "casalsetorial@teste.com",
-    	"password": "123456"
+    	"password": "ecc@setorial123"
     }
 parameters: []
 headers:
