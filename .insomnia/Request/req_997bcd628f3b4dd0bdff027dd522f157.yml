@@ -1,10 +1,10 @@
-_id: req_0dd19d3440774ce5b99ad2d37f9015bc
+_id: req_997bcd628f3b4dd0bdff027dd522f157
 type: Request
-parentId: fld_05e4d77027ca4526975b601485839494
-modified: 1670798428226
-created: 1670202093362
-url: http://localhost:3001/paroquias/setoriais/listar
-name: Listar casais setoriais
+parentId: fld_ab796e4a4e2246ac8ef5c0074b548430
+modified: 1670879117342
+created: 1670758865018
+url: http://localhost:3001/casal/265
+name: Ver perfil de um casal
 description: ""
 method: GET
 body: {}
@@ -12,8 +12,8 @@ parameters: []
 headers: []
 authentication:
   type: bearer
-  token: "{{ _.token_adm }}"
-metaSortKey: -1670194669203.5
+  token: "{{ _.token_integracao }}"
+metaSortKey: -1668554332238.625
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

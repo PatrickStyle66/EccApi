@@ -1,7 +1,7 @@
 _id: req_78242641b3954c49af5f96e7131aeaf3
 type: Request
 parentId: fld_3f5df965591f473dbf86fb6a73fd0a2a
-modified: 1670250177540
+modified: 1671043854057
 created: 1670094021891
 url: http://localhost:3001/tokens/
 name: Login Casal Setorial
@@ -12,7 +12,7 @@ body:
   text: |-
     {
     	"nome_usuario":"casalsetorial",
-    	"password":"123456"
+    	"password":"ecc@setorial123"
     }
 parameters: []
 headers:

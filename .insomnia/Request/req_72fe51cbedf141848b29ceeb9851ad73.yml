@@ -1,7 +1,7 @@
 _id: req_72fe51cbedf141848b29ceeb9851ad73
 type: Request
 parentId: fld_a50dedd83ce745a99899d7fb595faab0
-modified: 1670700316805
+modified: 1670878280325
 created: 1670188675002
 url: http://localhost:3001/palestras/selecao/casais/listar?ecc=15&rec=false&experiencia=false&vontade=false&novato=true
 name: Listar possiveis casais palestrantes
